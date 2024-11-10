@@ -103,6 +103,6 @@ if __name__ == '__main__':
     is_half=True
     model_path='uvr5_weights/2_HP-UVR.pth'
     pre_fun = _audio_pre_(model_path=model_path,device=device,is_half=True)
-    audio_path = 'audio.mp3'
+    audio_path = 'AUD-20241110-WA0385.aac'
     save_path = 'opt'
     pre_fun._path_audio_(audio_path , save_path,save_path)
